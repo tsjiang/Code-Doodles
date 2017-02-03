@@ -1,0 +1,49 @@
+
+body {
+  padding: 2em; 
+  background-color: lightblue;  
+  font-family: verdana;
+}
+
+header h1{
+	color: white;
+    text-align: center;
+	background: radial-gradient(black 50%, transparent); 	
+	float:center;
+}
+
+h3{
+	font-size: 18px;
+}
+
+p{
+    font-size: 16px;
+	font-weight: normal;
+}
+
+header {background: #111;color:white;
+		opacity: 0.70;}
+
+footer {background: #333;color:white;}
+
+.main {
+  text-align: left;
+  background: #eee;
+  min-height: 250px;  
+}
+
+.wrapper{
+	display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
